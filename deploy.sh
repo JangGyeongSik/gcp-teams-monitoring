@@ -2,7 +2,7 @@
 
 set +e
 
-gcloud functions deploy cf-prod-mongodb-monitoring \
+gcloud functions deploy [CLOUD_FUNCTION_NAME] \
     --entry-point=F \
     --memory=128MB \
     --region=asia-northeast3 \
