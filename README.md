@@ -10,7 +10,9 @@ https://learn.microsoft.com/en-us/microsoftteams/platform/webhooks-and-connector
 
 
 Edit the .env.yaml File as follows.
+
 TEAMS_WEBHOOK_URL is the previously issued URL.
+
 AUTH_TOKEN specifies an arbitrary value.
 ```
 TEAMS_WEBHOOK_URL: [TEAMS_WEBHOOK_URL]
